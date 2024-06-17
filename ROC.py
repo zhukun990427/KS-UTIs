@@ -7,14 +7,14 @@ plt.figure(dpi=300)
 ###y_true_* is the true value of the label, and y_score_* is the predicted probability of the label.
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#y_true_1 = [-,-,-,-,-,-,-]
+y_true_1 = [-,-,-,-,-,-,-]
 
-#y_score_1 = [-,-,-,-,-,-,-]
+y_score_1 = [-,-,-,-,-,-,-]
 
-#fpr1, tpr1, thresholds = metrics.roc_curve(y_true_1, y_score_1)
-#roc_auc1 = metrics.auc(fpr1, tpr1)  # the value of roc_auc1
-#print(roc_auc1)
-#plt.plot(fpr1, tpr1, '#00008B', label=' SupportVectorMachine = %0.4f' % roc_auc1)
+fpr1, tpr1, thresholds = metrics.roc_curve(y_true_1, y_score_1)
+roc_auc1 = metrics.auc(fpr1, tpr1)  # the value of roc_auc1
+print(roc_auc1)
+plt.plot(fpr1, tpr1, '#00008B', label=' SupportVectorMachine = %0.4f' % roc_auc1)
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
