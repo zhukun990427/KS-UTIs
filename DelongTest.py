@@ -77,7 +77,7 @@ class DelongTest():
     
 ###true_labels is the true value of the tag 
 ###model_probs is the predicted probability of the tag.
-true_labels = [-,-,-,-,-,-,-]  # 真实标签的列表 
+true_labels = [-,-,-,-,-,-,-]  
 model_probs = [{'model_name': 'Radiomics Features', 'probs': [-,-,-,-,-,-,-]} 
               ,{'model_name': 'Clinical Features', 'probs': [-,-,-,-,-,-,-]} 
               ,{'model_name': 'Combined Features', 'probs': [-,-,-,-,-,-,-]} 
